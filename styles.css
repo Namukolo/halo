@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  padding: 5rem;
+  padding: 5rem 5rem 1rem 5rem;
   font-size: 1.6rem;
   background-color: #a2d2ff;
 }
@@ -195,5 +195,8 @@ font-family: "Work Sans", sans-serif; */
 footer {
   font-family: "Mali", cursive;
   color: #3d5a80;
+
+  margin-top: 5rem;
+  bottom: 0;
   /* text-transform: uppercase; */
 }
