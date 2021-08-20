@@ -191,3 +191,9 @@ font-family: "Work Sans", sans-serif; */
     font-size: 1.2rem;
   }
 }
+
+footer {
+  font-family: "Mali", cursive;
+  color: #3d5a80;
+  /* text-transform: uppercase; */
+}
