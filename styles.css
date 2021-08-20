@@ -29,6 +29,7 @@ body {
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
+  box-shadow: rgba(218, 8, 8, 0.35) 0px 5px 15px;
   /* border: 1px solid red; */
 }
 
@@ -41,6 +42,9 @@ body {
 
 .card_text-header {
   font-size: 3rem;
+}
+.card_text-tagline {
+  font-size: 1.5rem;
 }
 .card_text {
   /* border: 1px solid rgb(180, 174, 174); */
@@ -168,4 +172,22 @@ font-family: "Work Sans", sans-serif; */
 }
 .card-13 .card_text-tagline {
   font-family: "Work Sans", sans-serif;
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    padding: 1.4rem;
+  }
+
+  .card > img {
+    width: 6rem;
+  }
+
+  .card_text-header {
+    font-size: 2.5rem;
+  }
+
+  .card_text-tagline {
+    font-size: 1.2rem;
+  }
 }
