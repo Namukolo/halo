@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Chonburi&family=Cinzel+Decorative:wght@400;700;900&family=Corben&family=Damion&family=Dancing+Script:wght@400;600&family=Fredericka+the+Great&family=Fuggles&family=Italianno&family=Mali&family=Nixie+One&family=Pacifico&family=Satisfy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Montserrat:wght@300;400&family=Mukta:wght@300;400&family=Noto+Sans&family=Nunito:wght@300;400&family=Open+Sans:wght@300&family=Poppins:wght@300;400&family=Quicksand:wght@300;400&family=Raleway:wght@300;400&family=Rubik:wght@300;400&family=Source+Sans+Pro:wght@300;400&family=Urbanist:wght@300&family=Work+Sans:wght@300;400&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  padding: 5rem;
+  font-size: 1.6rem;
+  background-color: #a2d2ff;
+}
+
+.card {
+  max-width: 40rem;
+  border-radius: 5px;
+  background-color: #eddcd2;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.card > img {
+  width: 8rem;
+  display: block;
+  margin-right: 1rem;
+  /* border: 1px solid red; */
+}
+
+.card_text-header {
+  font-size: 3rem;
+}
+.card_text {
+  /* border: 1px solid rgb(180, 174, 174); */
+  min-height: 7.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* font-family: 'Caveat Brush', cursive;
+font-family: 'Chonburi', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Corben', cursive;
+font-family: 'Damion', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Fuggles', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Mali', cursive;
+font-family: 'Nixie One', cursive;
+font-family: 'Pacifico', cursive; */
+
+/* font-family: "Fira Sans", sans-serif;
+font-family: "Montserrat", sans-serif;
+font-family: "Mukta", sans-serif; */
+/* font-family: "Noto Sans", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Open Sans", sans-serif; */
+/* font-family: "Poppins", sans-serif;
+font-family: "Quicksand", sans-serif;
+font-family: "Raleway", sans-serif; */
+/* font-family: "Rubik", sans-serif;
+font-family: "Source Sans Pro", sans-serif;
+font-family: "Urbanist", sans-serif;
+font-family: "Work Sans", sans-serif; */
+
+/* CARD ONE */
+.card-1 .card_text-header {
+  font-family: "Caveat Brush", cursive;
+}
+
+.card-1 .card_text-tagline {
+  font-family: "Fira Sans", sans-serif;
+}
+/* CARD TWO */
+.card-2 .card_text-header {
+  font-family: "Chonburi", cursive;
+}
+.card-2 .card_text-tagline {
+  font-family: "Montserrat", sans-serif;
+}
+/* CARD THREE */
+.card-3 .card_text-header {
+  font-family: "Cinzel Decorative", cursive;
+}
+.card-3 .card_text-tagline {
+  font-family: "Mukta", sans-serif;
+}
+/* CARD FOUR */
+.card-4 .card_text-header {
+  font-family: "Corben", cursive;
+}
+.card-4 .card_text-tagline {
+  font-family: "Noto Sans", sans-serif;
+}
+/* CARD FIVE */
+.card-5 .card_text-header {
+  font-family: "Satisfy", cursive;
+}
+.card-5 .card_text-tagline {
+  font-family: "Nunito", sans-serif;
+}
+/* CARD SIX */
+.card-6 .card_text-header {
+  font-family: "Damion", cursive;
+}
+.card-6 .card_text-tagline {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* CARD SEVEN */
+.card-7 .card_text-header {
+  font-family: "Dancing Script", cursive;
+}
+.card-7 .card_text-tagline {
+  font-family: "Poppins", sans-serif;
+}
+/* CARD EIGHT */
+.card-8 .card_text-header {
+  font-family: "Fredericka the Great", cursive;
+}
+.card-8 .card_text-tagline {
+  font-family: "Quicksand", sans-serif;
+}
+/* CARD NINE */
+.card-9 .card_text-header {
+  font-family: "Fuggles", cursive;
+}
+.card-9 .card_text-tagline {
+  font-family: "Raleway", sans-serif;
+}
+/* CARD TEN */
+.card-10 .card_text-header {
+  font-family: "Italianno", cursive;
+}
+.card-10 .card_text-tagline {
+  font-family: "Rubik", sans-serif;
+}
+/* CARD ELEVEN */
+.card-11 .card_text-header {
+  font-family: "Mali", cursive;
+}
+.card-11 .card_text-tagline {
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* CARD TWEKVE */
+.card-12 .card_text-header {
+  font-family: "Nixie One", cursive;
+}
+.card-12 .card_text-tagline {
+  font-family: "Urbanist", sans-serif;
+}
+/* CARD THRTEEN*/
+.card-13 .card_text-header {
+  font-family: "Pacifico", cursive;
+}
+.card-13 .card_text-tagline {
+  font-family: "Work Sans", sans-serif;
+}
